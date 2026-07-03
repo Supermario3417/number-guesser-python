@@ -100,7 +100,7 @@ while True:
                     print("Try again...")
                 elif randomMessage == 2:
                     print("Incorrect.")
-            time.sleep(0.2)
+            time.sleep(0.1)
             print("Strike recived")
             streak = 0
     
