@@ -17,7 +17,7 @@ while True:
     randomMessage = random.randint(0, 2)
     
     if int(response) < 1 and int(response) > streak + 2:
-        while not response >= 1 and response <= streak + 2:
+        while not int(response) >= 1 and int(response) <= streak + 2:
             input("This is an invalid number. Try again.")
     if int(response) == randomNumber:
         if streak >= 20:
