@@ -33,7 +33,7 @@ while True:
             if randomMessage == 0:
                 print("Amazing!!!")
             elif randomMessage == 1:
-                print("Beutiful!!!")
+                print("Beautiful!!!")
             elif randomMessage == 2:
                 print("Numerical!!!")
         elif streak >= 5:
